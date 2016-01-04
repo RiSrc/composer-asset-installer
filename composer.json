@@ -1,0 +1,16 @@
+{
+  "name": "risrc/asset-installer",
+  "description": "Copies configured asset files during composer update or install",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jens Richter",
+      "email": "jens.richter@risrc.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RiSrc\\Composer\\Scripts\\":"/src"
+    }
+  }
+}
