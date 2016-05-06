@@ -113,7 +113,7 @@ class AssetInstallerScript
         }
         $assetConfig = $composerExtra['asset-installer']['assets'];
         if (isset($composerExtra['asset-installer']['path-config'])) {
-            $pathConfig = array_merge($pathConfig, $composerExtra['asset-installer']);
+            $pathConfig = array_merge($pathConfig, $composerExtra['asset-installer']['path-config']);
         }
         /** @type InstallationManager $installationManager */
         $installationManager = $composer->getInstallationManager();
